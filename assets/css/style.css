@@ -1,0 +1,417 @@
+/* public */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.clrfix{
+    clear:both
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+.header{
+   background-image:url(../css/image/header\ background.jpg); 
+   background-size: cover;  
+   height:100vh
+}
+
+.navbar{
+    padding-top: 20px;
+}
+
+.navbar .logo{
+text-align: center;
+float: left;
+width: 40%;
+}
+
+.navbar .logo img{
+    width: 25%;
+}
+
+.navbar .nav{
+    text-align: center;
+    float: left;
+    width: 60%;
+}
+
+.navlist{
+display: inline-block;
+padding: 10px;
+padding-top: 40px;
+}
+
+.navbar .nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header__content img{
+    width: 25%;
+}
+
+.header__content h1{
+    font-family: 'Alegreya Sans';    
+    color: white;
+    font-size: 76px;
+    font-weight: 400;
+}
+
+.header__content p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header__content button{
+    padding: 15px 30px ;
+    border: none;
+    font-size: 20px;
+}
+
+.buttonm{
+    background-color: #c1ab84;
+    color: white;
+    margin-right: 20px;
+}
+
+.buttonm:hover{
+    background-color:white;
+    color: black;
+cursor: pointer;
+}
+
+
+/* about */
+
+.about-image{
+    width: 40%;
+    float: left;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-content{
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-content h2{
+font-size: 36px;
+color: #253048;
+font-family: 'Alegreya Sans';
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.about-content h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Comforter Brush';
+    color: #c1ab84;
+    margin-bottom: 30px;
+}
+
+.about-content p{
+    font-size: 18px;
+    width: 74%;
+    margin: auto;
+    text-align: left;
+    line-height: 30px;
+}
+
+.about-content ul{
+margin-top: 10px;
+}
+
+.about-content li{
+margin: auto;
+text-align: left;
+width: 74%;
+}
+
+
+.about-content span{
+    font-size: 20px;
+    font-family: 'Alegreya Sans';
+    margin-left: 30px;
+}
+
+.about-content i{
+    background-color: rgb(193, 171, 132);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* reviewer */
+
+.reviewers{
+background-color: #f8f8f8;
+padding: 70px;
+}
+
+.rv-content{
+    float:left;
+    width:60%;
+    margin: auto;
+    text-align: left;
+}
+
+.rv-content h2{
+    color: rgb(37, 48, 72);
+        font-size: 36px;
+        font-weight: 400;
+        margin-bottom: 10px;
+        font-family: 'Alegreya', cursive;
+}
+
+.rv-content h3{
+font-family: 'Dancing Script', cursive;
+color: rgb(193, 171, 132);
+font-size: 23px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+.rv-content p{
+font-size: 18px;
+width: 75%;
+line-height: 30px;
+margin-bottom: 20px;
+}
+
+.rv-content i{
+margin-bottom: 20px;
+margin-right: 30px;
+color: #c1ab84;
+}
+
+.rv-image{
+    float:left;
+    width:40%;
+}
+
+.rv-image img{
+    width: 100%;
+}
+
+/* back */
+.back{
+    background-image: url(../css/image/back.jpg);
+    padding: 250px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* menu */
+
+.menu{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Alegreya', serif;
+}
+
+.menu .menu-subheading{
+    color: rgb(193, 171, 132);
+    font-size: 28px;
+    font-family: "Dancing Script";
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+
+.meals{
+    float:left;
+    width:33.3%
+}
+
+.meals img{
+    width: 80%;
+}
+
+.ml-name h3{
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Alegreya', serif;
+}
+
+.ml-desc p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.menu button{
+    background-color: #c1ab84;
+    color: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius:10px;
+}
+
+/* location */
+
+.location{
+    margin-top: 60px;
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+
+.loc-desc{
+float: left;
+width: 60%;
+margin: auto;
+text-align: left;
+}
+
+.loc-desc h2{
+    color: rgb(37, 48, 72);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.loc-desc p{
+    font-size: 18px;
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+    
+    .loc-desc span{
+        font-size: 18px;
+        font-family: 'Alegreya Sans';
+    }
+
+.loc-desc i{
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: white;
+    background-color: #c1ab84;
+    border-radius: 50%;
+    padding: 10px;
+    }
+
+.loc-map{
+    float: left;
+    width: 40%;
+}
+
+.loc-map iframe{
+    width: 600px;
+    height: 450px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #403d38;
+    padding-top: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #969696;
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: color 1s;
+}
+
+.ft-desc{
+    float: left;
+    width: 25%;
+}
+
+.ft-desc h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.ft-desc p{
+    width: 84%;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #969696;
+}
+
+.ft-desc li{
+    margin-bottom: 20px;
+    color: #969696;
+}
+.ft-desc i{
+margin-right: 10px;
+}
+
+.ft-desc span{
+    font-size: 14px;
+}
+
+.footer2{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.footer2 p{
+    color: #969696;
+    font-size: 14px;
+    width: 16%;
+    margin: auto;
+}
+
+.footer2 .items{
+    margin-top: 30px;
+}
+
+.footer2 i{
+    background-color: #484540;
+    color: #969696;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+
+.footer2 i:hover{
+    background-color: #3b5998;
+    color: white;
+}
